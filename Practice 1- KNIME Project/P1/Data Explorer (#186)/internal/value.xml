@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+<config key="selection">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="funder"/>
+<entry key="1" type="xstring" value="wpt_name"/>
+<entry key="2" type="xstring" value="recorded_by"/>
+<entry key="3" type="xstring" value="subvillage"/>
+<entry key="4" type="xstring" value="scheme_name"/>
+<entry key="5" type="xstring" value="ward"/>
+<entry key="6" type="xstring" value="date_recorded"/>
+</config>
+<entry key="selectAll" type="xboolean" value="false"/>
+<entry key="pageSize" type="xint" value="0"/>
+<entry key="currentPage" type="xint" value="0"/>
+<entry key="filterString" type="xstring" isnull="true" value=""/>
+<config key="currentOrder">
+<entry key="numSettings" type="xint" value="1"/>
+<config key="order_0">
+<entry key="col" type="xint" value="3"/>
+<entry key="dir" type="xstring" value="desc"/>
+</config>
+</config>
+<entry key="selectAllIndeterminate" type="xboolean" value="false"/>
+</config>

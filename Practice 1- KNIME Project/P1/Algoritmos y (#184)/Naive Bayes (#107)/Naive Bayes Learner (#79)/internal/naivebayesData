@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="class"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="Threshold" type="xdouble" value="1.0E-4"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="20"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="amount_tsh"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="479.05819339895726"/>
+<entry key="sd" type="xdouble" value="4232.438156376744"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="241.6240949898639"/>
+<entry key="sd" type="xdouble" value="1186.1286385476394"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="103.01482339316735"/>
+<entry key="sd" type="xdouble" value="547.6932515501034"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="gps_height"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="749.582223508974"/>
+<entry key="sd" type="xdouble" value="722.5480142012024"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="629.6281494352737"/>
+<entry key="sd" type="xdouble" value="649.186148073482"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="573.2015055008677"/>
+<entry key="sd" type="xdouble" value="636.6463591856939"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="longitude"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="34.21093904911406"/>
+<entry key="sd" type="xdouble" value="6.456618840961412"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="31.236751954937716"/>
+<entry key="sd" type="xdouble" value="10.153684644059885"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="34.527970880361856"/>
+<entry key="sd" type="xdouble" value="5.670025480055341"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="latitude"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="-5.70261081988131"/>
+<entry key="sd" type="xdouble" value="2.8845660031205758"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="-5.15832120620331"/>
+<entry key="sd" type="xdouble" value="3.0876668586746785"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="-5.815162475949621"/>
+<entry key="sd" type="xdouble" value="2.96313191691482"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="num_private"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="0.8662420382165603"/>
+<entry key="sd" type="xdouble" value="24.576035571666658"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="0.3654792933680862"/>
+<entry key="sd" type="xdouble" value="5.274305463872644"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="0.4064852345107118"/>
+<entry key="sd" type="xdouble" value="6.908095007881892"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="region_code"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="13.726983207874905"/>
+<entry key="sd" type="xdouble" value="15.07880203553401"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="15.459889950767439"/>
+<entry key="sd" type="xdouble" value="16.303268114233177"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="17.79183555298208"/>
+<entry key="sd" type="xdouble" value="21.030526333624433"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="district_code"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="5.182397220613764"/>
+<entry key="sd" type="xdouble" value="8.813100879047115"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="4.729220967274836"/>
+<entry key="sd" type="xdouble" value="8.0438006761489"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="6.557903879559935"/>
+<entry key="sd" type="xdouble" value="11.240698046125635"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="lga"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="124"/>
+<entry key="0" type="xstring" value="Karagwe"/>
+<entry key="1" type="xstring" value="Sumbawanga Rural"/>
+<entry key="2" type="xstring" value="Njombe"/>
+<entry key="3" type="xstring" value="Ukerewe"/>
+<entry key="4" type="xstring" value="Moshi Rural"/>
+<entry key="5" type="xstring" value="Arusha Rural"/>
+<entry key="6" type="xstring" value="Shinyanga Rural"/>
+<entry key="7" type="xstring" value="Masasi"/>
+<entry key="8" type="xstring" value="Kyela"/>
+<entry key="9" type="xstring" value="Bukoba Rural"/>
+<entry key="10" type="xstring" value="Muheza"/>
+<entry key="11" type="xstring" value="Kigoma Rural"/>
+<entry key="12" type="xstring" value="Iramba"/>
+<entry key="13" type="xstring" value="Mbarali"/>
+<entry key="14" type="xstring" value="Korogwe"/>
+<entry key="15" type="xstring" value="Kishapu"/>
+<entry key="16" type="xstring" value="Dodoma Urban"/>
+<entry key="17" type="xstring" value="Songea Rural"/>
+<entry key="18" type="xstring" value="Tunduru"/>
+<entry key="19" type="xstring" value="Chato"/>
+<entry key="20" type="xstring" value="Misenyi"/>
+<entry key="21" type="xstring" value="Bunda"/>
+<entry key="22" type="xstring" value="Makete"/>
+<entry key="23" type="xstring" value="Biharamulo"/>
+<entry key="24" type="xstring" value="Singida Rural"/>
+<entry key="25" type="xstring" value="Kasulu"/>
+<entry key="26" type="xstring" value="Mbeya Rural"/>
+<entry key="27" type="xstring" value="Bukombe"/>
+<entry key="28" type="xstring" value="Maswa"/>
+<entry key="29" type="xstring" value="Kilosa"/>
+<entry key="30" type="xstring" value="Babati"/>
+<entry key="31" type="xstring" value="Bariadi"/>
+<entry key="32" type="xstring" value="Ngara"/>
+<entry key="33" type="xstring" value="Same"/>
+<entry key="34" type="xstring" value="Mbozi"/>
+<entry key="35" type="xstring" value="Kibaha"/>
+<entry key="36" type="xstring" value="Mvomero"/>
+<entry key="37" type="xstring" value="Chunya"/>
+<entry key="38" type="xstring" value="Iringa Rural"/>
+<entry key="39" type="xstring" value="Mkuranga"/>
+<entry key="40" type="xstring" value="Magu"/>
+<entry key="41" type="xstring" value="Nkasi"/>
+<entry key="42" type="xstring" value="Sumbawanga Urban"/>
+<entry key="43" type="xstring" value="Rungwe"/>
+<entry key="44" type="xstring" value="Mtwara Urban"/>
+<entry key="45" type="xstring" value="Mpwapwa"/>
+<entry key="46" type="xstring" value="Bahi"/>
+<entry key="47" type="xstring" value="Kilombero"/>
+<entry key="48" type="xstring" value="Morogoro Rural"/>
+<entry key="49" type="xstring" value="Muleba"/>
+<entry key="50" type="xstring" value="Longido"/>
+<entry key="51" type="xstring" value="Kongwa"/>
+<entry key="52" type="xstring" value="Uyui"/>
+<entry key="53" type="xstring" value="Geita"/>
+<entry key="54" type="xstring" value="Chamwino"/>
+<entry key="55" type="xstring" value="Karatu"/>
+<entry key="56" type="xstring" value="Nanyumbu"/>
+<entry key="57" type="xstring" value="Mwanga"/>
+<entry key="58" type="xstring" value="Rufiji"/>
+<entry key="59" type="xstring" value="Ilala"/>
+<entry key="60" type="xstring" value="Bagamoyo"/>
+<entry key="61" type="xstring" value="Namtumbo"/>
+<entry key="62" type="xstring" value="Liwale"/>
+<entry key="63" type="xstring" value="Kibondo"/>
+<entry key="64" type="xstring" value="Lushoto"/>
+<entry key="65" type="xstring" value="Mbinga"/>
+<entry key="66" type="xstring" value="Kisarawe"/>
+<entry key="67" type="xstring" value="Nzega"/>
+<entry key="68" type="xstring" value="Kondoa"/>
+<entry key="69" type="xstring" value="Kilwa"/>
+<entry key="70" type="xstring" value="Ruangwa"/>
+<entry key="71" type="xstring" value="Lindi Rural"/>
+<entry key="72" type="xstring" value="Meru"/>
+<entry key="73" type="xstring" value="Serengeti"/>
+<entry key="74" type="xstring" value="Shinyanga Urban"/>
+<entry key="75" type="xstring" value="Hai"/>
+<entry key="76" type="xstring" value="Ileje"/>
+<entry key="77" type="xstring" value="Mtwara Rural"/>
+<entry key="78" type="xstring" value="Monduli"/>
+<entry key="79" type="xstring" value="Rorya"/>
+<entry key="80" type="xstring" value="Mpanda"/>
+<entry key="81" type="xstring" value="Pangani"/>
+<entry key="82" type="xstring" value="Meatu"/>
+<entry key="83" type="xstring" value="Musoma Rural"/>
+<entry key="84" type="xstring" value="Ludewa"/>
+<entry key="85" type="xstring" value="Sengerema"/>
+<entry key="86" type="xstring" value="Ulanga"/>
+<entry key="87" type="xstring" value="Bukoba Urban"/>
+<entry key="88" type="xstring" value="Kahama"/>
+<entry key="89" type="xstring" value="Mkinga"/>
+<entry key="90" type="xstring" value="Handeni"/>
+<entry key="91" type="xstring" value="Manyoni"/>
+<entry key="92" type="xstring" value="Mufindi"/>
+<entry key="93" type="xstring" value="Ilemela"/>
+<entry key="94" type="xstring" value="Igunga"/>
+<entry key="95" type="xstring" value="Tandahimba"/>
+<entry key="96" type="xstring" value="Singida Urban"/>
+<entry key="97" type="xstring" value="Kiteto"/>
+<entry key="98" type="xstring" value="Urambo"/>
+<entry key="99" type="xstring" value="Newala"/>
+<entry key="100" type="xstring" value="Sikonge"/>
+<entry key="101" type="xstring" value="Nachingwea"/>
+<entry key="102" type="xstring" value="Simanjiro"/>
+<entry key="103" type="xstring" value="Rombo"/>
+<entry key="104" type="xstring" value="Lindi Urban"/>
+<entry key="105" type="xstring" value="Temeke"/>
+<entry key="106" type="xstring" value="Mafia"/>
+<entry key="107" type="xstring" value="Kwimba"/>
+<entry key="108" type="xstring" value="Missungwi"/>
+<entry key="109" type="xstring" value="Kinondoni"/>
+<entry key="110" type="xstring" value="Hanang"/>
+<entry key="111" type="xstring" value="Kilindi"/>
+<entry key="112" type="xstring" value="Ngorongoro"/>
+<entry key="113" type="xstring" value="Kilolo"/>
+<entry key="114" type="xstring" value="Mbulu"/>
+<entry key="115" type="xstring" value="Tarime"/>
+<entry key="116" type="xstring" value="Tabora Urban"/>
+<entry key="117" type="xstring" value="Siha"/>
+<entry key="118" type="xstring" value="Moshi Urban"/>
+<entry key="119" type="xstring" value="Morogoro Urban"/>
+<entry key="120" type="xstring" value="Kigoma Urban"/>
+<entry key="121" type="xstring" value="Arusha Urban"/>
+<entry key="122" type="xstring" value="Tanga"/>
+<entry key="123" type="xstring" value="Songea Urban"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="123"/>
+<entry key="0" type="xstring" value="Igunga"/>
+<entry key="1" type="xstring" value="Lindi Urban"/>
+<entry key="2" type="xstring" value="Mkinga"/>
+<entry key="3" type="xstring" value="Kibaha"/>
+<entry key="4" type="xstring" value="Nkasi"/>
+<entry key="5" type="xstring" value="Ileje"/>
+<entry key="6" type="xstring" value="Mbinga"/>
+<entry key="7" type="xstring" value="Mpanda"/>
+<entry key="8" type="xstring" value="Makete"/>
+<entry key="9" type="xstring" value="Kyela"/>
+<entry key="10" type="xstring" value="Nzega"/>
+<entry key="11" type="xstring" value="Chato"/>
+<entry key="12" type="xstring" value="Serengeti"/>
+<entry key="13" type="xstring" value="Temeke"/>
+<entry key="14" type="xstring" value="Sumbawanga Rural"/>
+<entry key="15" type="xstring" value="Hanang"/>
+<entry key="16" type="xstring" value="Maswa"/>
+<entry key="17" type="xstring" value="Chunya"/>
+<entry key="18" type="xstring" value="Tabora Urban"/>
+<entry key="19" type="xstring" value="Masasi"/>
+<entry key="20" type="xstring" value="Lushoto"/>
+<entry key="21" type="xstring" value="Shinyanga Rural"/>
+<entry key="22" type="xstring" value="Chamwino"/>
+<entry key="23" type="xstring" value="Iramba"/>
+<entry key="24" type="xstring" value="Sumbawanga Urban"/>
+<entry key="25" type="xstring" value="Kilolo"/>
+<entry key="26" type="xstring" value="Mkuranga"/>
+<entry key="27" type="xstring" value="Urambo"/>
+<entry key="28" type="xstring" value="Ilemela"/>
+<entry key="29" type="xstring" value="Mbarali"/>
+<entry key="30" type="xstring" value="Kahama"/>
+<entry key="31" type="xstring" value="Korogwe"/>
+<entry key="32" type="xstring" value="Ilala"/>
+<entry key="33" type="xstring" value="Muleba"/>
+<entry key="34" type="xstring" value="Bariadi"/>
+<entry key="35" type="xstring" value="Rombo"/>
+<entry key="36" type="xstring" value="Dodoma Urban"/>
+<entry key="37" type="xstring" value="Liwale"/>
+<entry key="38" type="xstring" value="Ruangwa"/>
+<entry key="39" type="xstring" value="Mpwapwa"/>
+<entry key="40" type="xstring" value="Kwimba"/>
+<entry key="41" type="xstring" value="Sengerema"/>
+<entry key="42" type="xstring" value="Karagwe"/>
+<entry key="43" type="xstring" value="Monduli"/>
+<entry key="44" type="xstring" value="Njombe"/>
+<entry key="45" type="xstring" value="Musoma Rural"/>
+<entry key="46" type="xstring" value="Mbozi"/>
+<entry key="47" type="xstring" value="Ludewa"/>
+<entry key="48" type="xstring" value="Kasulu"/>
+<entry key="49" type="xstring" value="Kinondoni"/>
+<entry key="50" type="xstring" value="Tunduru"/>
+<entry key="51" type="xstring" value="Uyui"/>
+<entry key="52" type="xstring" value="Moshi Rural"/>
+<entry key="53" type="xstring" value="Hai"/>
+<entry key="54" type="xstring" value="Mvomero"/>
+<entry key="55" type="xstring" value="Handeni"/>
+<entry key="56" type="xstring" value="Iringa Rural"/>
+<entry key="57" type="xstring" value="Kibondo"/>
+<entry key="58" type="xstring" value="Kilosa"/>
+<entry key="59" type="xstring" value="Mbulu"/>
+<entry key="60" type="xstring" value="Moshi Urban"/>
+<entry key="61" type="xstring" value="Mtwara Rural"/>
+<entry key="62" type="xstring" value="Singida Urban"/>
+<entry key="63" type="xstring" value="Meatu"/>
+<entry key="64" type="xstring" value="Magu"/>
+<entry key="65" type="xstring" value="Manyoni"/>
+<entry key="66" type="xstring" value="Songea Urban"/>
+<entry key="67" type="xstring" value="Kongwa"/>
+<entry key="68" type="xstring" value="Arusha Urban"/>
+<entry key="69" type="xstring" value="Mwanga"/>
+<entry key="70" type="xstring" value="Longido"/>
+<entry key="71" type="xstring" value="Missungwi"/>
+<entry key="72" type="xstring" value="Mafia"/>
+<entry key="73" type="xstring" value="Same"/>
+<entry key="74" type="xstring" value="Nanyumbu"/>
+<entry key="75" type="xstring" value="Pangani"/>
+<entry key="76" type="xstring" value="Bukoba Rural"/>
+<entry key="77" type="xstring" value="Bagamoyo"/>
+<entry key="78" type="xstring" value="Kisarawe"/>
+<entry key="79" type="xstring" value="Muheza"/>
+<entry key="80" type="xstring" value="Kilwa"/>
+<entry key="81" type="xstring" value="Rufiji"/>
+<entry key="82" type="xstring" value="Morogoro Rural"/>
+<entry key="83" type="xstring" value="Ngara"/>
+<entry key="84" type="xstring" value="Morogoro Urban"/>
+<entry key="85" type="xstring" value="Biharamulo"/>
+<entry key="86" type="xstring" value="Bukoba Urban"/>
+<entry key="87" type="xstring" value="Kigoma Rural"/>
+<entry key="88" type="xstring" value="Simanjiro"/>
+<entry key="89" type="xstring" value="Ngorongoro"/>
+<entry key="90" type="xstring" value="Rungwe"/>
+<entry key="91" type="xstring" value="Mufindi"/>
+<entry key="92" type="xstring" value="Bahi"/>
+<entry key="93" type="xstring" value="Geita"/>
+<entry key="94" type="xstring" value="Bunda"/>
+<entry key="95" type="xstring" value="Misenyi"/>
+<entry key="96" type="xstring" value="Kondoa"/>
+<entry key="97" type="xstring" value="Siha"/>
+<entry key="98" type="xstring" value="Songea Rural"/>
+<entry key="99" type="xstring" value="Rorya"/>
+<entry key="100" type="xstring" value="Shinyanga Urban"/>
+<entry key="101" type="xstring" value="Singida Rural"/>
+<entry key="102" type="xstring" value="Kiteto"/>
+<entry key="103" type="xstring" value="Ulanga"/>
+<entry key="104" type="xstring" value="Lindi Rural"/>
+<entry key="105" type="xstring" value="Kishapu"/>
+<entry key="106" type="xstring" value="Tanga"/>
+<entry key="107" type="xstring" value="Sikonge"/>
+<entry key="108" type="xstring" value="Kilindi"/>
+<entry key="109" type="xstring" value="Meru"/>
+<entry key="110" type="xstring" value="Karatu"/>
+<entry key="111" type="xstring" value="Bukombe"/>
+<entry key="112" type="xstring" value="Tandahimba"/>
+<entry key="113" type="xstring" value="Kilombero"/>
+<entry key="114" type="xstring" value="Namtumbo"/>
+<entry key="115" type="xstring" value="Arusha Rural"/>
+<entry key="116" type="xstring" value="Mtwara Urban"/>
+<entry key="117" type="xstring" value="Mbeya Rural"/>
+<entry key="118" type="xstring" value="Newala"/>
+<entry key="119" type="xstring" value="Babati"/>
+<entry key="120" type="xstring" value="Ukerewe"/>
+<entry key="121" type="xstring" value="Nachingwea"/>
+<entry key="122" type="xstring" value="Tarime"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="123"/>
+<entry key="0" type="xlong" value="14"/>
+<entry key="1" type="xlong" value="2"/>
+<entry key="2" type="xlong" value="33"/>
+<entry key="3" type="xlong" value="20"/>
+<entry key="4" type="xlong" value="10"/>
+<entry key="5" type="xlong" value="20"/>
+<entry key="6" type="xlong" value="43"/>
+<entry key="7" type="xlong" value="36"/>
+<entry key="8" type="xlong" value="54"/>
+<entry key="9" type="xlong" value="35"/>
+<entry key="10" type="xlong" value="38"/>
+<entry key="11" type="xlong" value="11"/>
+<entry key="12" type="xlong" value="42"/>
+<entry key="13" type="xlong" value="8"/>
+<entry key="14" type="xlong" value="21"/>
+<entry key="15" type="xlong" value="30"/>
+<entry key="16" type="xlong" value="52"/>
+<entry key="17" type="xlong" value="9"/>
+<entry key="18" type="xlong" value="7"/>
+<entry key="19" type="xlong" value="9"/>
+<entry key="20" type="xlong" value="55"/>
+<entry key="21" type="xlong" value="26"/>
+<entry key="22" type="xlong" value="13"/>
+<entry key="23" type="xlong" value="45"/>
+<entry key="24" type="xlong" value="11"/>
+<entry key="25" type="xlong" value="24"/>
+<entry key="26" type="xlong" value="29"/>
+<entry key="27" type="xlong" value="11"/>
+<entry key="28" type="xlong" value="6"/>
+<entry key="29" type="xlong" value="25"/>
+<entry key="30" type="xlong" value="42"/>
+<entry key="31" type="xlong" value="25"/>
+<entry key="32" type="xlong" value="35"/>
+<entry key="33" type="xlong" value="19"/>
+<entry key="34" type="xlong" value="63"/>
+<entry key="35" type="xlong" value="26"/>
+<entry key="36" type="xlong" value="12"/>
+<entry key="37" type="xlong" value="6"/>
+<entry key="38" type="xlong" value="7"/>
+<entry key="39" type="xlong" value="22"/>
+<entry key="40" type="xlong" value="36"/>
+<entry key="41" type="xlong" value="18"/>
+<entry key="42" type="xlong" value="46"/>
+<entry key="43" type="xlong" value="14"/>
+<entry key="44" type="xlong" value="223"/>
+<entry key="45" type="xlong" value="12"/>
+<entry key="46" type="xlong" value="47"/>
+<entry key="47" type="xlong" value="43"/>
+<entry key="48" type="xlong" value="71"/>
+<entry key="49" type="xlong" value="4"/>
+<entry key="50" type="xlong" value="25"/>
+<entry key="51" type="xlong" value="15"/>
+<entry key="52" type="xlong" value="87"/>
+<entry key="53" type="xlong" value="69"/>
+<entry key="54" type="xlong" value="33"/>
+<entry key="55" type="xlong" value="11"/>
+<entry key="56" type="xlong" value="65"/>
+<entry key="57" type="xlong" value="47"/>
+<entry key="58" type="xlong" value="68"/>
+<entry key="59" type="xlong" value="17"/>
+<entry key="60" type="xlong" value="10"/>
+<entry key="61" type="xlong" value="24"/>
+<entry key="62" type="xlong" value="13"/>
+<entry key="63" type="xlong" value="44"/>
+<entry key="64" type="xlong" value="31"/>
+<entry key="65" type="xlong" value="12"/>
+<entry key="66" type="xlong" value="2"/>
+<entry key="67" type="xlong" value="20"/>
+<entry key="68" type="xlong" value="3"/>
+<entry key="69" type="xlong" value="20"/>
+<entry key="70" type="xlong" value="24"/>
+<entry key="71" type="xlong" value="15"/>
+<entry key="72" type="xlong" value="11"/>
+<entry key="73" type="xlong" value="45"/>
+<entry key="74" type="xlong" value="7"/>
+<entry key="75" type="xlong" value="7"/>
+<entry key="76" type="xlong" value="25"/>
+<entry key="77" type="xlong" value="82"/>
+<entry key="78" type="xlong" value="15"/>
+<entry key="79" type="xlong" value="17"/>
+<entry key="80" type="xlong" value="12"/>
+<entry key="81" type="xlong" value="25"/>
+<entry key="82" type="xlong" value="22"/>
+<entry key="83" type="xlong" value="36"/>
+<entry key="84" type="xlong" value="8"/>
+<entry key="85" type="xlong" value="29"/>
+<entry key="86" type="xlong" value="2"/>
+<entry key="87" type="xlong" value="37"/>
+<entry key="88" type="xlong" value="12"/>
+<entry key="89" type="xlong" value="8"/>
+<entry key="90" type="xlong" value="64"/>
+<entry key="91" type="xlong" value="47"/>
+<entry key="92" type="xlong" value="16"/>
+<entry key="93" type="xlong" value="34"/>
+<entry key="94" type="xlong" value="13"/>
+<entry key="95" type="xlong" value="12"/>
+<entry key="96" type="xlong" value="20"/>
+<entry key="97" type="xlong" value="34"/>
+<entry key="98" type="xlong" value="34"/>
+<entry key="99" type="xlong" value="6"/>
+<entry key="100" type="xlong" value="9"/>
+<entry key="101" type="xlong" value="51"/>
+<entry key="102" type="xlong" value="6"/>
+<entry key="103" type="xlong" value="57"/>
+<entry key="104" type="xlong" value="23"/>
+<entry key="105" type="xlong" value="19"/>
+<entry key="106" type="xlong" value="6"/>
+<entry key="107" type="xlong" value="4"/>
+<entry key="108" type="xlong" value="12"/>
+<entry key="109" type="xlong" value="75"/>
+<entry key="110" type="xlong" value="29"/>
+<entry key="111" type="xlong" value="29"/>
+<entry key="112" type="xlong" value="9"/>
+<entry key="113" type="xlong" value="48"/>
+<entry key="114" type="xlong" value="38"/>
+<entry key="115" type="xlong" value="84"/>
+<entry key="116" type="xlong" value="8"/>
+<entry key="117" type="xlong" value="28"/>
+<entry key="118" type="xlong" value="3"/>
+<entry key="119" type="xlong" value="43"/>
+<entry key="120" type="xlong" value="7"/>
+<entry key="121" type="xlong" value="5"/>
+<entry key="122" type="xlong" value="16"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="124"/>
+<entry key="0" type="xstring" value="Igunga"/>
+<entry key="1" type="xstring" value="Lindi Urban"/>
+<entry key="2" type="xstring" value="Kibaha"/>
+<entry key="3" type="xstring" value="Nkasi"/>
+<entry key="4" type="xstring" value="Mkinga"/>
+<entry key="5" type="xstring" value="Ileje"/>
+<entry key="6" type="xstring" value="Mbinga"/>
+<entry key="7" type="xstring" value="Mpanda"/>
+<entry key="8" type="xstring" value="Makete"/>
+<entry key="9" type="xstring" value="Kyela"/>
+<entry key="10" type="xstring" value="Chato"/>
+<entry key="11" type="xstring" value="Nzega"/>
+<entry key="12" type="xstring" value="Serengeti"/>
+<entry key="13" type="xstring" value="Temeke"/>
+<entry key="14" type="xstring" value="Kigoma Urban"/>
+<entry key="15" type="xstring" value="Sumbawanga Rural"/>
+<entry key="16" type="xstring" value="Hanang"/>
+<entry key="17" type="xstring" value="Chunya"/>
+<entry key="18" type="xstring" value="Maswa"/>
+<entry key="19" type="xstring" value="Tabora Urban"/>
+<entry key="20" type="xstring" value="Masasi"/>
+<entry key="21" type="xstring" value="Lushoto"/>
+<entry key="22" type="xstring" value="Shinyanga Rural"/>
+<entry key="23" type="xstring" value="Chamwino"/>
+<entry key="24" type="xstring" value="Iramba"/>
+<entry key="25" type="xstring" value="Sumbawanga Urban"/>
+<entry key="26" type="xstring" value="Kilolo"/>
+<entry key="27" type="xstring" value="Mkuranga"/>
+<entry key="28" type="xstring" value="Urambo"/>
+<entry key="29" type="xstring" value="Ilemela"/>
+<entry key="30" type="xstring" value="Mbarali"/>
+<entry key="31" type="xstring" value="Kahama"/>
+<entry key="32" type="xstring" value="Korogwe"/>
+<entry key="33" type="xstring" value="Ilala"/>
+<entry key="34" type="xstring" value="Muleba"/>
+<entry key="35" type="xstring" value="Bariadi"/>
+<entry key="36" type="xstring" value="Rombo"/>
+<entry key="37" type="xstring" value="Dodoma Urban"/>
+<entry key="38" type="xstring" value="Liwale"/>
+<entry key="39" type="xstring" value="Ruangwa"/>
+<entry key="40" type="xstring" value="Mpwapwa"/>
+<entry key="41" type="xstring" value="Kwimba"/>
+<entry key="42" type="xstring" value="Sengerema"/>
+<entry key="43" type="xstring" value="Monduli"/>
+<entry key="44" type="xstring" value="Karagwe"/>
+<entry key="45" type="xstring" value="Njombe"/>
+<entry key="46" type="xstring" value="Mbozi"/>
+<entry key="47" type="xstring" value="Musoma Rural"/>
+<entry key="48" type="xstring" value="Ludewa"/>
+<entry key="49" type="xstring" value="Kasulu"/>
+<entry key="50" type="xstring" value="Kinondoni"/>
+<entry key="51" type="xstring" value="Tunduru"/>
+<entry key="52" type="xstring" value="Uyui"/>
+<entry key="53" type="xstring" value="Moshi Rural"/>
+<entry key="54" type="xstring" value="Mvomero"/>
+<entry key="55" type="xstring" value="Hai"/>
+<entry key="56" type="xstring" value="Handeni"/>
+<entry key="57" type="xstring" value="Iringa Rural"/>
+<entry key="58" type="xstring" value="Kibondo"/>
+<entry key="59" type="xstring" value="Kilosa"/>
+<entry key="60" type="xstring" value="Mbulu"/>
+<entry key="61" type="xstring" value="Moshi Urban"/>
+<entry key="62" type="xstring" value="Mtwara Rural"/>
+<entry key="63" type="xstring" value="Singida Urban"/>
+<entry key="64" type="xstring" value="Magu"/>
+<entry key="65" type="xstring" value="Meatu"/>
+<entry key="66" type="xstring" value="Manyoni"/>
+<entry key="67" type="xstring" value="Songea Urban"/>
+<entry key="68" type="xstring" value="Kongwa"/>
+<entry key="69" type="xstring" value="Arusha Urban"/>
+<entry key="70" type="xstring" value="Mwanga"/>
+<entry key="71" type="xstring" value="Longido"/>
+<entry key="72" type="xstring" value="Missungwi"/>
+<entry key="73" type="xstring" value="Mafia"/>
+<entry key="74" type="xstring" value="Same"/>
+<entry key="75" type="xstring" value="Nanyumbu"/>
+<entry key="76" type="xstring" value="Pangani"/>
+<entry key="77" type="xstring" value="Bukoba Rural"/>
+<entry key="78" type="xstring" value="Bagamoyo"/>
+<entry key="79" type="xstring" value="Kisarawe"/>
+<entry key="80" type="xstring" value="Kilwa"/>
+<entry key="81" type="xstring" value="Muheza"/>
+<entry key="82" type="xstring" value="Rufiji"/>
+<entry key="83" type="xstring" value="Morogoro Rural"/>
+<entry key="84" type="xstring" value="Ngara"/>
+<entry key="85" type="xstring" value="Morogoro Urban"/>
+<entry key="86" type="xstring" value="Biharamulo"/>
+<entry key="87" type="xstring" value="Bukoba Urban"/>
+<entry key="88" type="xstring" value="Kigoma Rural"/>
+<entry key="89" type="xstring" value="Simanjiro"/>
+<entry key="90" type="xstring" value="Ngorongoro"/>
+<entry key="91" type="xstring" value="Rungwe"/>
+<entry key="92" type="xstring" value="Mufindi"/>
+<entry key="93" type="xstring" value="Bahi"/>
+<entry key="94" type="xstring" value="Misenyi"/>
+<entry key="95" type="xstring" value="Bunda"/>
+<entry key="96" type="xstring" value="Geita"/>
+<entry key="97" type="xstring" value="Kondoa"/>
+<entry key="98" type="xstring" value="Siha"/>
+<entry key="99" type="xstring" value="Songea Rural"/>
+<entry key="100" type="xstring" value="Rorya"/>
+<entry key="101" type="xstring" value="Shinyanga Urban"/>
+<entry key="102" type="xstring" value="Singida Rural"/>
+<entry key="103" type="xstring" value="Kiteto"/>
+<entry key="104" type="xstring" value="Lindi Rural"/>
+<entry key="105" type="xstring" value="Ulanga"/>
+<entry key="106" type="xstring" value="Kishapu"/>
+<entry key="107" type="xstring" value="Tanga"/>
+<entry key="108" type="xstring" value="Sikonge"/>
+<entry key="109" type="xstring" value="Kilindi"/>
+<entry key="110" type="xstring" value="Meru"/>
+<entry key="111" type="xstring" value="Karatu"/>
+<entry key="112" type="xstring" value="Bukombe"/>
+<entry key="113" type="xstring" value="Tandahimba"/>
+<entry key="114" type="xstring" value="Kilombero"/>
+<entry key="115" type="xstring" value="Namtumbo"/>
+<entry key="116" type="xstring" value="Arusha Rural"/>
+<entry key="117" type="xstring" value="Mtwara Urban"/>
+<entry key="118" type="xstring" value="Mbeya Rural"/>
+<entry key="119" type="xstring" value="Newala"/>
+<entry key="120" type="xstring" value="Babati"/>
+<entry key="121" type="xstring" value="Ukerewe"/>
+<entry key="122" type="xstring" value="Nachingwea"/>
+<entry key="123" type="xstring" value="Tarime"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="124"/>
+<entry key="0" type="xlong" value="19"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="13"/>
+<entry key="3" type="xlong" value="45"/>
+<entry key="4" type="xlong" value="13"/>
+<entry key="5" type="xlong" value="11"/>
+<entry key="6" type="xlong" value="48"/>
+<entry key="7" type="xlong" value="42"/>
+<entry key="8" type="xlong" value="10"/>
+<entry key="9" type="xlong" value="70"/>
+<entry key="10" type="xlong" value="17"/>
+<entry key="11" type="xlong" value="43"/>
+<entry key="12" type="xlong" value="48"/>
+<entry key="13" type="xlong" value="19"/>
+<entry key="14" type="xlong" value="5"/>
+<entry key="15" type="xlong" value="43"/>
+<entry key="16" type="xlong" value="15"/>
+<entry key="17" type="xlong" value="24"/>
+<entry key="18" type="xlong" value="36"/>
+<entry key="19" type="xlong" value="12"/>
+<entry key="20" type="xlong" value="50"/>
+<entry key="21" type="xlong" value="29"/>
+<entry key="22" type="xlong" value="39"/>
+<entry key="23" type="xlong" value="22"/>
+<entry key="24" type="xlong" value="26"/>
+<entry key="25" type="xlong" value="15"/>
+<entry key="26" type="xlong" value="16"/>
+<entry key="27" type="xlong" value="56"/>
+<entry key="28" type="xlong" value="35"/>
+<entry key="29" type="xlong" value="10"/>
+<entry key="30" type="xlong" value="26"/>
+<entry key="31" type="xlong" value="70"/>
+<entry key="32" type="xlong" value="32"/>
+<entry key="33" type="xlong" value="18"/>
+<entry key="34" type="xlong" value="25"/>
+<entry key="35" type="xlong" value="23"/>
+<entry key="36" type="xlong" value="42"/>
+<entry key="37" type="xlong" value="27"/>
+<entry key="38" type="xlong" value="23"/>
+<entry key="39" type="xlong" value="24"/>
+<entry key="40" type="xlong" value="20"/>
+<entry key="41" type="xlong" value="33"/>
+<entry key="42" type="xlong" value="20"/>
+<entry key="43" type="xlong" value="13"/>
+<entry key="44" type="xlong" value="49"/>
+<entry key="45" type="xlong" value="56"/>
+<entry key="46" type="xlong" value="79"/>
+<entry key="47" type="xlong" value="31"/>
+<entry key="48" type="xlong" value="23"/>
+<entry key="49" type="xlong" value="24"/>
+<entry key="50" type="xlong" value="5"/>
+<entry key="51" type="xlong" value="21"/>
+<entry key="52" type="xlong" value="26"/>
+<entry key="53" type="xlong" value="60"/>
+<entry key="54" type="xlong" value="53"/>
+<entry key="55" type="xlong" value="15"/>
+<entry key="56" type="xlong" value="20"/>
+<entry key="57" type="xlong" value="28"/>
+<entry key="58" type="xlong" value="58"/>
+<entry key="59" type="xlong" value="61"/>
+<entry key="60" type="xlong" value="12"/>
+<entry key="61" type="xlong" value="5"/>
+<entry key="62" type="xlong" value="32"/>
+<entry key="63" type="xlong" value="11"/>
+<entry key="64" type="xlong" value="63"/>
+<entry key="65" type="xlong" value="12"/>
+<entry key="66" type="xlong" value="41"/>
+<entry key="67" type="xlong" value="1"/>
+<entry key="68" type="xlong" value="20"/>
+<entry key="69" type="xlong" value="2"/>
+<entry key="70" type="xlong" value="27"/>
+<entry key="71" type="xlong" value="12"/>
+<entry key="72" type="xlong" value="22"/>
+<entry key="73" type="xlong" value="4"/>
+<entry key="74" type="xlong" value="44"/>
+<entry key="75" type="xlong" value="20"/>
+<entry key="76" type="xlong" value="37"/>
+<entry key="77" type="xlong" value="22"/>
+<entry key="78" type="xlong" value="42"/>
+<entry key="79" type="xlong" value="19"/>
+<entry key="80" type="xlong" value="47"/>
+<entry key="81" type="xlong" value="11"/>
+<entry key="82" type="xlong" value="45"/>
+<entry key="83" type="xlong" value="36"/>
+<entry key="84" type="xlong" value="29"/>
+<entry key="85" type="xlong" value="4"/>
+<entry key="86" type="xlong" value="27"/>
+<entry key="87" type="xlong" value="5"/>
+<entry key="88" type="xlong" value="26"/>
+<entry key="89" type="xlong" value="25"/>
+<entry key="90" type="xlong" value="14"/>
+<entry key="91" type="xlong" value="40"/>
+<entry key="92" type="xlong" value="17"/>
+<entry key="93" type="xlong" value="16"/>
+<entry key="94" type="xlong" value="19"/>
+<entry key="95" type="xlong" value="53"/>
+<entry key="96" type="xlong" value="25"/>
+<entry key="97" type="xlong" value="27"/>
+<entry key="98" type="xlong" value="6"/>
+<entry key="99" type="xlong" value="38"/>
+<entry key="100" type="xlong" value="25"/>
+<entry key="101" type="xlong" value="17"/>
+<entry key="102" type="xlong" value="71"/>
+<entry key="103" type="xlong" value="17"/>
+<entry key="104" type="xlong" value="25"/>
+<entry key="105" type="xlong" value="28"/>
+<entry key="106" type="xlong" value="25"/>
+<entry key="107" type="xlong" value="9"/>
+<entry key="108" type="xlong" value="25"/>
+<entry key="109" type="xlong" value="8"/>
+<entry key="110" type="xlong" value="49"/>
+<entry key="111" type="xlong" value="1"/>
+<entry key="112" type="xlong" value="25"/>
+<entry key="113" type="xlong" value="28"/>
+<entry key="114" type="xlong" value="52"/>
+<entry key="115" type="xlong" value="51"/>
+<entry key="116" type="xlong" value="63"/>
+<entry key="117" type="xlong" value="5"/>
+<entry key="118" type="xlong" value="24"/>
+<entry key="119" type="xlong" value="15"/>
+<entry key="120" type="xlong" value="7"/>
+<entry key="121" type="xlong" value="32"/>
+<entry key="122" type="xlong" value="44"/>
+<entry key="123" type="xlong" value="13"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="106"/>
+<entry key="0" type="xstring" value="Igunga"/>
+<entry key="1" type="xstring" value="Nkasi"/>
+<entry key="2" type="xstring" value="Kibaha"/>
+<entry key="3" type="xstring" value="Ileje"/>
+<entry key="4" type="xstring" value="Mbinga"/>
+<entry key="5" type="xstring" value="Mpanda"/>
+<entry key="6" type="xstring" value="Kyela"/>
+<entry key="7" type="xstring" value="Nzega"/>
+<entry key="8" type="xstring" value="Chato"/>
+<entry key="9" type="xstring" value="Serengeti"/>
+<entry key="10" type="xstring" value="Temeke"/>
+<entry key="11" type="xstring" value="Kigoma Urban"/>
+<entry key="12" type="xstring" value="Sumbawanga Rural"/>
+<entry key="13" type="xstring" value="Chunya"/>
+<entry key="14" type="xstring" value="Maswa"/>
+<entry key="15" type="xstring" value="Masasi"/>
+<entry key="16" type="xstring" value="Lushoto"/>
+<entry key="17" type="xstring" value="Shinyanga Rural"/>
+<entry key="18" type="xstring" value="Chamwino"/>
+<entry key="19" type="xstring" value="Iramba"/>
+<entry key="20" type="xstring" value="Kilolo"/>
+<entry key="21" type="xstring" value="Mkuranga"/>
+<entry key="22" type="xstring" value="Urambo"/>
+<entry key="23" type="xstring" value="Ilemela"/>
+<entry key="24" type="xstring" value="Mbarali"/>
+<entry key="25" type="xstring" value="Kahama"/>
+<entry key="26" type="xstring" value="Korogwe"/>
+<entry key="27" type="xstring" value="Muleba"/>
+<entry key="28" type="xstring" value="Bariadi"/>
+<entry key="29" type="xstring" value="Rombo"/>
+<entry key="30" type="xstring" value="Dodoma Urban"/>
+<entry key="31" type="xstring" value="Liwale"/>
+<entry key="32" type="xstring" value="Ruangwa"/>
+<entry key="33" type="xstring" value="Mpwapwa"/>
+<entry key="34" type="xstring" value="Kwimba"/>
+<entry key="35" type="xstring" value="Monduli"/>
+<entry key="36" type="xstring" value="Karagwe"/>
+<entry key="37" type="xstring" value="Njombe"/>
+<entry key="38" type="xstring" value="Mbozi"/>
+<entry key="39" type="xstring" value="Musoma Rural"/>
+<entry key="40" type="xstring" value="Ludewa"/>
+<entry key="41" type="xstring" value="Kasulu"/>
+<entry key="42" type="xstring" value="Tunduru"/>
+<entry key="43" type="xstring" value="Uyui"/>
+<entry key="44" type="xstring" value="Moshi Rural"/>
+<entry key="45" type="xstring" value="Mvomero"/>
+<entry key="46" type="xstring" value="Hai"/>
+<entry key="47" type="xstring" value="Iringa Rural"/>
+<entry key="48" type="xstring" value="Kibondo"/>
+<entry key="49" type="xstring" value="Kilosa"/>
+<entry key="50" type="xstring" value="Mbulu"/>
+<entry key="51" type="xstring" value="Singida Urban"/>
+<entry key="52" type="xstring" value="Mtwara Rural"/>
+<entry key="53" type="xstring" value="Magu"/>
+<entry key="54" type="xstring" value="Meatu"/>
+<entry key="55" type="xstring" value="Manyoni"/>
+<entry key="56" type="xstring" value="Songea Urban"/>
+<entry key="57" type="xstring" value="Arusha Urban"/>
+<entry key="58" type="xstring" value="Mwanga"/>
+<entry key="59" type="xstring" value="Longido"/>
+<entry key="60" type="xstring" value="Missungwi"/>
+<entry key="61" type="xstring" value="Mafia"/>
+<entry key="62" type="xstring" value="Same"/>
+<entry key="63" type="xstring" value="Pangani"/>
+<entry key="64" type="xstring" value="Bukoba Rural"/>
+<entry key="65" type="xstring" value="Bagamoyo"/>
+<entry key="66" type="xstring" value="Kilwa"/>
+<entry key="67" type="xstring" value="Rufiji"/>
+<entry key="68" type="xstring" value="Ngara"/>
+<entry key="69" type="xstring" value="Morogoro Rural"/>
+<entry key="70" type="xstring" value="Morogoro Urban"/>
+<entry key="71" type="xstring" value="Biharamulo"/>
+<entry key="72" type="xstring" value="Bukoba Urban"/>
+<entry key="73" type="xstring" value="Kigoma Rural"/>
+<entry key="74" type="xstring" value="Simanjiro"/>
+<entry key="75" type="xstring" value="Ngorongoro"/>
+<entry key="76" type="xstring" value="Rungwe"/>
+<entry key="77" type="xstring" value="Mufindi"/>
+<entry key="78" type="xstring" value="Misenyi"/>
+<entry key="79" type="xstring" value="Geita"/>
+<entry key="80" type="xstring" value="Bunda"/>
+<entry key="81" type="xstring" value="Kondoa"/>
+<entry key="82" type="xstring" value="Siha"/>
+<entry key="83" type="xstring" value="Songea Rural"/>
+<entry key="84" type="xstring" value="Rorya"/>
+<entry key="85" type="xstring" value="Shinyanga Urban"/>
+<entry key="86" type="xstring" value="Singida Rural"/>
+<entry key="87" type="xstring" value="Kiteto"/>
+<entry key="88" type="xstring" value="Lindi Rural"/>
+<entry key="89" type="xstring" value="Ulanga"/>
+<entry key="90" type="xstring" value="Kishapu"/>
+<entry key="91" type="xstring" value="Tanga"/>
+<entry key="92" type="xstring" value="Kilindi"/>
+<entry key="93" type="xstring" value="Meru"/>
+<entry key="94" type="xstring" value="Karatu"/>
+<entry key="95" type="xstring" value="Bukombe"/>
+<entry key="96" type="xstring" value="Tandahimba"/>
+<entry key="97" type="xstring" value="Kilombero"/>
+<entry key="98" type="xstring" value="Namtumbo"/>
+<entry key="99" type="xstring" value="Arusha Rural"/>
+<entry key="100" type="xstring" value="Mtwara Urban"/>
+<entry key="101" type="xstring" value="Mbeya Rural"/>
+<entry key="102" type="xstring" value="Newala"/>
+<entry key="103" type="xstring" value="Babati"/>
+<entry key="104" type="xstring" value="Ukerewe"/>
+<entry key="105" type="xstring" value="Nachingwea"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="106"/>
+<entry key="0" type="xlong" value="12"/>
+<entry key="1" type="xlong" value="14"/>
+<entry key="2" type="xlong" value="5"/>
+<entry key="3" type="xlong" value="2"/>
+<entry key="4" type="xlong" value="44"/>
+<entry key="5" type="xlong" value="70"/>
+<entry key="6" type="xlong" value="4"/>
+<entry key="7" type="xlong" value="10"/>
+<entry key="8" type="xlong" value="2"/>
+<entry key="9" type="xlong" value="19"/>
+<entry key="10" type="xlong" value="2"/>
+<entry key="11" type="xlong" value="8"/>
+<entry key="12" type="xlong" value="26"/>
+<entry key="13" type="xlong" value="76"/>
+<entry key="14" type="xlong" value="56"/>
+<entry key="15" type="xlong" value="50"/>
+<entry key="16" type="xlong" value="46"/>
+<entry key="17" type="xlong" value="10"/>
+<entry key="18" type="xlong" value="26"/>
+<entry key="19" type="xlong" value="41"/>
+<entry key="20" type="xlong" value="2"/>
+<entry key="21" type="xlong" value="4"/>
+<entry key="22" type="xlong" value="13"/>
+<entry key="23" type="xlong" value="8"/>
+<entry key="24" type="xlong" value="110"/>
+<entry key="25" type="xlong" value="4"/>
+<entry key="26" type="xlong" value="4"/>
+<entry key="27" type="xlong" value="6"/>
+<entry key="28" type="xlong" value="314"/>
+<entry key="29" type="xlong" value="13"/>
+<entry key="30" type="xlong" value="31"/>
+<entry key="31" type="xlong" value="3"/>
+<entry key="32" type="xlong" value="17"/>
+<entry key="33" type="xlong" value="29"/>
+<entry key="34" type="xlong" value="8"/>
+<entry key="35" type="xlong" value="27"/>
+<entry key="36" type="xlong" value="38"/>
+<entry key="37" type="xlong" value="75"/>
+<entry key="38" type="xlong" value="52"/>
+<entry key="39" type="xlong" value="21"/>
+<entry key="40" type="xlong" value="9"/>
+<entry key="41" type="xlong" value="165"/>
+<entry key="42" type="xlong" value="45"/>
+<entry key="43" type="xlong" value="2"/>
+<entry key="44" type="xlong" value="97"/>
+<entry key="45" type="xlong" value="46"/>
+<entry key="46" type="xlong" value="4"/>
+<entry key="47" type="xlong" value="9"/>
+<entry key="48" type="xlong" value="53"/>
+<entry key="49" type="xlong" value="54"/>
+<entry key="50" type="xlong" value="8"/>
+<entry key="51" type="xlong" value="8"/>
+<entry key="52" type="xlong" value="6"/>
+<entry key="53" type="xlong" value="64"/>
+<entry key="54" type="xlong" value="36"/>
+<entry key="55" type="xlong" value="9"/>
+<entry key="56" type="xlong" value="2"/>
+<entry key="57" type="xlong" value="7"/>
+<entry key="58" type="xlong" value="42"/>
+<entry key="59" type="xlong" value="19"/>
+<entry key="60" type="xlong" value="1"/>
+<entry key="61" type="xlong" value="15"/>
+<entry key="62" type="xlong" value="92"/>
+<entry key="63" type="xlong" value="1"/>
+<entry key="64" type="xlong" value="81"/>
+<entry key="65" type="xlong" value="1"/>
+<entry key="66" type="xlong" value="27"/>
+<entry key="67" type="xlong" value="4"/>
+<entry key="68" type="xlong" value="66"/>
+<entry key="69" type="xlong" value="41"/>
+<entry key="70" type="xlong" value="6"/>
+<entry key="71" type="xlong" value="18"/>
+<entry key="72" type="xlong" value="5"/>
+<entry key="73" type="xlong" value="259"/>
+<entry key="74" type="xlong" value="3"/>
+<entry key="75" type="xlong" value="22"/>
+<entry key="76" type="xlong" value="133"/>
+<entry key="77" type="xlong" value="4"/>
+<entry key="78" type="xlong" value="22"/>
+<entry key="79" type="xlong" value="15"/>
+<entry key="80" type="xlong" value="5"/>
+<entry key="81" type="xlong" value="84"/>
+<entry key="82" type="xlong" value="1"/>
+<entry key="83" type="xlong" value="27"/>
+<entry key="84" type="xlong" value="1"/>
+<entry key="85" type="xlong" value="7"/>
+<entry key="86" type="xlong" value="52"/>
+<entry key="87" type="xlong" value="27"/>
+<entry key="88" type="xlong" value="20"/>
+<entry key="89" type="xlong" value="25"/>
+<entry key="90" type="xlong" value="34"/>
+<entry key="91" type="xlong" value="3"/>
+<entry key="92" type="xlong" value="1"/>
+<entry key="93" type="xlong" value="28"/>
+<entry key="94" type="xlong" value="1"/>
+<entry key="95" type="xlong" value="42"/>
+<entry key="96" type="xlong" value="6"/>
+<entry key="97" type="xlong" value="62"/>
+<entry key="98" type="xlong" value="16"/>
+<entry key="99" type="xlong" value="42"/>
+<entry key="100" type="xlong" value="8"/>
+<entry key="101" type="xlong" value="23"/>
+<entry key="102" type="xlong" value="24"/>
+<entry key="103" type="xlong" value="42"/>
+<entry key="104" type="xlong" value="58"/>
+<entry key="105" type="xlong" value="11"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_8">
+<entry key="attributeName" type="xstring" value="population"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="192.38158656630006"/>
+<entry key="sd" type="xdouble" value="480.5800413029323"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="179.57573124819018"/>
+<entry key="sd" type="xdouble" value="468.3286013754069"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="176.79357266936873"/>
+<entry key="sd" type="xdouble" value="430.2115131896055"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_9">
+<entry key="attributeName" type="xstring" value="public_meeting"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="True"/>
+<entry key="1" type="xstring" value="False"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="True"/>
+<entry key="1" type="xstring" value="False"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="3229"/>
+<entry key="1" type="xlong" value="225"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="True"/>
+<entry key="1" type="xstring" value="False"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="3080"/>
+<entry key="1" type="xlong" value="374"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="True"/>
+<entry key="1" type="xstring" value="False"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="3086"/>
+<entry key="1" type="xlong" value="367"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_10">
+<entry key="attributeName" type="xstring" value="scheme_management"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="VWC"/>
+<entry key="1" type="xstring" value="WUA"/>
+<entry key="2" type="xstring" value="Other"/>
+<entry key="3" type="xstring" value="WUG"/>
+<entry key="4" type="xstring" value="Parastatal"/>
+<entry key="5" type="xstring" value="Water authority"/>
+<entry key="6" type="xstring" value="Water Board"/>
+<entry key="7" type="xstring" value="Company"/>
+<entry key="8" type="xstring" value="Private operator"/>
+<entry key="9" type="xstring" value="Trust"/>
+<entry key="10" type="xstring" value="SWC"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Water Board"/>
+<entry key="1" type="xstring" value="WUA"/>
+<entry key="2" type="xstring" value="Company"/>
+<entry key="3" type="xstring" value="VWC"/>
+<entry key="4" type="xstring" value="Water authority"/>
+<entry key="5" type="xstring" value="WUG"/>
+<entry key="6" type="xstring" value="Private operator"/>
+<entry key="7" type="xstring" value="Trust"/>
+<entry key="8" type="xstring" value="Parastatal"/>
+<entry key="9" type="xstring" value="SWC"/>
+<entry key="10" type="xstring" value="Other"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xlong" value="221"/>
+<entry key="1" type="xlong" value="211"/>
+<entry key="2" type="xlong" value="49"/>
+<entry key="3" type="xlong" value="2234"/>
+<entry key="4" type="xlong" value="180"/>
+<entry key="5" type="xlong" value="317"/>
+<entry key="6" type="xlong" value="94"/>
+<entry key="7" type="xlong" value="5"/>
+<entry key="8" type="xlong" value="95"/>
+<entry key="9" type="xlong" value="2"/>
+<entry key="10" type="xlong" value="46"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Water Board"/>
+<entry key="1" type="xstring" value="WUA"/>
+<entry key="2" type="xstring" value="Company"/>
+<entry key="3" type="xstring" value="VWC"/>
+<entry key="4" type="xstring" value="Water authority"/>
+<entry key="5" type="xstring" value="WUG"/>
+<entry key="6" type="xstring" value="Private operator"/>
+<entry key="7" type="xstring" value="Trust"/>
+<entry key="8" type="xstring" value="Parastatal"/>
+<entry key="9" type="xstring" value="SWC"/>
+<entry key="10" type="xstring" value="Other"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xlong" value="91"/>
+<entry key="1" type="xlong" value="104"/>
+<entry key="2" type="xlong" value="63"/>
+<entry key="3" type="xlong" value="2615"/>
+<entry key="4" type="xlong" value="139"/>
+<entry key="5" type="xlong" value="235"/>
+<entry key="6" type="xlong" value="51"/>
+<entry key="7" type="xlong" value="4"/>
+<entry key="8" type="xlong" value="93"/>
+<entry key="9" type="xlong" value="13"/>
+<entry key="10" type="xlong" value="46"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Water Board"/>
+<entry key="1" type="xstring" value="WUA"/>
+<entry key="2" type="xstring" value="Company"/>
+<entry key="3" type="xstring" value="VWC"/>
+<entry key="4" type="xstring" value="Water authority"/>
+<entry key="5" type="xstring" value="WUG"/>
+<entry key="6" type="xstring" value="Private operator"/>
+<entry key="7" type="xstring" value="Trust"/>
+<entry key="8" type="xstring" value="Parastatal"/>
+<entry key="9" type="xstring" value="SWC"/>
+<entry key="10" type="xstring" value="Other"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xlong" value="90"/>
+<entry key="1" type="xlong" value="198"/>
+<entry key="2" type="xlong" value="26"/>
+<entry key="3" type="xlong" value="2043"/>
+<entry key="4" type="xlong" value="355"/>
+<entry key="5" type="xlong" value="541"/>
+<entry key="6" type="xlong" value="18"/>
+<entry key="7" type="xlong" value="4"/>
+<entry key="8" type="xlong" value="158"/>
+<entry key="9" type="xlong" value="1"/>
+<entry key="10" type="xlong" value="19"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_11">
+<entry key="attributeName" type="xstring" value="construction_year"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="1372.9994209612032"/>
+<entry key="sd" type="xdouble" value="928.1158443650746"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="mean" type="xdouble" value="1165.4303504199222"/>
+<entry key="sd" type="xdouble" value="983.5438060670504"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="mean" type="xdouble" value="1266.4033005211338"/>
+<entry key="sd" type="xdouble" value="959.3029327426827"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_12">
+<entry key="attributeName" type="xstring" value="extraction_type"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xstring" value="gravity"/>
+<entry key="1" type="xstring" value="swn 80"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="nira/tanira"/>
+<entry key="4" type="xstring" value="windmill"/>
+<entry key="5" type="xstring" value="afridev"/>
+<entry key="6" type="xstring" value="mono"/>
+<entry key="7" type="xstring" value="submersible"/>
+<entry key="8" type="xstring" value="other - swn 81"/>
+<entry key="9" type="xstring" value="ksb"/>
+<entry key="10" type="xstring" value="india mark ii"/>
+<entry key="11" type="xstring" value="india mark iii"/>
+<entry key="12" type="xstring" value="other - rope pump"/>
+<entry key="13" type="xstring" value="cemo"/>
+<entry key="14" type="xstring" value="other - play pump"/>
+<entry key="15" type="xstring" value="walimi"/>
+<entry key="16" type="xstring" value="climax"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xstring" value="other - play pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="windmill"/>
+<entry key="3" type="xstring" value="submersible"/>
+<entry key="4" type="xstring" value="india mark ii"/>
+<entry key="5" type="xstring" value="cemo"/>
+<entry key="6" type="xstring" value="other - rope pump"/>
+<entry key="7" type="xstring" value="nira/tanira"/>
+<entry key="8" type="xstring" value="india mark iii"/>
+<entry key="9" type="xstring" value="mono"/>
+<entry key="10" type="xstring" value="swn 80"/>
+<entry key="11" type="xstring" value="gravity"/>
+<entry key="12" type="xstring" value="climax"/>
+<entry key="13" type="xstring" value="other - swn 81"/>
+<entry key="14" type="xstring" value="walimi"/>
+<entry key="15" type="xstring" value="afridev"/>
+<entry key="16" type="xstring" value="ksb"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xlong" value="2"/>
+<entry key="1" type="xlong" value="112"/>
+<entry key="2" type="xlong" value="4"/>
+<entry key="3" type="xlong" value="289"/>
+<entry key="4" type="xlong" value="147"/>
+<entry key="5" type="xlong" value="4"/>
+<entry key="6" type="xlong" value="23"/>
+<entry key="7" type="xlong" value="578"/>
+<entry key="8" type="xlong" value="3"/>
+<entry key="9" type="xlong" value="113"/>
+<entry key="10" type="xlong" value="208"/>
+<entry key="11" type="xlong" value="1739"/>
+<entry key="12" type="xlong" value="3"/>
+<entry key="13" type="xlong" value="16"/>
+<entry key="14" type="xlong" value="2"/>
+<entry key="15" type="xlong" value="136"/>
+<entry key="16" type="xlong" value="75"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xstring" value="other - play pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="windmill"/>
+<entry key="3" type="xstring" value="submersible"/>
+<entry key="4" type="xstring" value="india mark ii"/>
+<entry key="5" type="xstring" value="other - rope pump"/>
+<entry key="6" type="xstring" value="cemo"/>
+<entry key="7" type="xstring" value="nira/tanira"/>
+<entry key="8" type="xstring" value="india mark iii"/>
+<entry key="9" type="xstring" value="mono"/>
+<entry key="10" type="xstring" value="swn 80"/>
+<entry key="11" type="xstring" value="gravity"/>
+<entry key="12" type="xstring" value="climax"/>
+<entry key="13" type="xstring" value="other - swn 81"/>
+<entry key="14" type="xstring" value="walimi"/>
+<entry key="15" type="xstring" value="ksb"/>
+<entry key="16" type="xstring" value="afridev"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xlong" value="7"/>
+<entry key="1" type="xlong" value="760"/>
+<entry key="2" type="xlong" value="12"/>
+<entry key="3" type="xlong" value="282"/>
+<entry key="4" type="xlong" value="142"/>
+<entry key="5" type="xlong" value="24"/>
+<entry key="6" type="xlong" value="7"/>
+<entry key="7" type="xlong" value="344"/>
+<entry key="8" type="xlong" value="5"/>
+<entry key="9" type="xlong" value="236"/>
+<entry key="10" type="xlong" value="206"/>
+<entry key="11" type="xlong" value="1216"/>
+<entry key="12" type="xlong" value="1"/>
+<entry key="13" type="xlong" value="18"/>
+<entry key="14" type="xlong" value="2"/>
+<entry key="15" type="xlong" value="107"/>
+<entry key="16" type="xlong" value="85"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="16"/>
+<entry key="0" type="xstring" value="other - play pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="windmill"/>
+<entry key="3" type="xstring" value="submersible"/>
+<entry key="4" type="xstring" value="india mark ii"/>
+<entry key="5" type="xstring" value="other - rope pump"/>
+<entry key="6" type="xstring" value="cemo"/>
+<entry key="7" type="xstring" value="nira/tanira"/>
+<entry key="8" type="xstring" value="india mark iii"/>
+<entry key="9" type="xstring" value="mono"/>
+<entry key="10" type="xstring" value="swn 80"/>
+<entry key="11" type="xstring" value="gravity"/>
+<entry key="12" type="xstring" value="other - swn 81"/>
+<entry key="13" type="xstring" value="walimi"/>
+<entry key="14" type="xstring" value="ksb"/>
+<entry key="15" type="xstring" value="afridev"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="16"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="168"/>
+<entry key="2" type="xlong" value="7"/>
+<entry key="3" type="xlong" value="189"/>
+<entry key="4" type="xlong" value="67"/>
+<entry key="5" type="xlong" value="11"/>
+<entry key="6" type="xlong" value="7"/>
+<entry key="7" type="xlong" value="505"/>
+<entry key="8" type="xlong" value="1"/>
+<entry key="9" type="xlong" value="111"/>
+<entry key="10" type="xlong" value="166"/>
+<entry key="11" type="xlong" value="2151"/>
+<entry key="12" type="xlong" value="4"/>
+<entry key="13" type="xlong" value="9"/>
+<entry key="14" type="xlong" value="20"/>
+<entry key="15" type="xlong" value="36"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_13">
+<entry key="attributeName" type="xstring" value="management"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="other"/>
+<entry key="1" type="xstring" value="vwc"/>
+<entry key="2" type="xstring" value="wua"/>
+<entry key="3" type="xstring" value="wug"/>
+<entry key="4" type="xstring" value="parastatal"/>
+<entry key="5" type="xstring" value="water board"/>
+<entry key="6" type="xstring" value="water authority"/>
+<entry key="7" type="xstring" value="unknown"/>
+<entry key="8" type="xstring" value="private operator"/>
+<entry key="9" type="xstring" value="company"/>
+<entry key="10" type="xstring" value="trust"/>
+<entry key="11" type="xstring" value="other - school"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="parastatal"/>
+<entry key="1" type="xstring" value="trust"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="wua"/>
+<entry key="4" type="xstring" value="vwc"/>
+<entry key="5" type="xstring" value="private operator"/>
+<entry key="6" type="xstring" value="wug"/>
+<entry key="7" type="xstring" value="other - school"/>
+<entry key="8" type="xstring" value="company"/>
+<entry key="9" type="xstring" value="water board"/>
+<entry key="10" type="xstring" value="water authority"/>
+<entry key="11" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xlong" value="108"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="52"/>
+<entry key="3" type="xlong" value="180"/>
+<entry key="4" type="xlong" value="2187"/>
+<entry key="5" type="xlong" value="175"/>
+<entry key="6" type="xlong" value="403"/>
+<entry key="7" type="xlong" value="1"/>
+<entry key="8" type="xlong" value="29"/>
+<entry key="9" type="xlong" value="244"/>
+<entry key="10" type="xlong" value="49"/>
+<entry key="11" type="xlong" value="22"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="parastatal"/>
+<entry key="1" type="xstring" value="trust"/>
+<entry key="2" type="xstring" value="wua"/>
+<entry key="3" type="xstring" value="other"/>
+<entry key="4" type="xstring" value="vwc"/>
+<entry key="5" type="xstring" value="private operator"/>
+<entry key="6" type="xstring" value="wug"/>
+<entry key="7" type="xstring" value="other - school"/>
+<entry key="8" type="xstring" value="company"/>
+<entry key="9" type="xstring" value="water board"/>
+<entry key="10" type="xstring" value="water authority"/>
+<entry key="11" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xlong" value="96"/>
+<entry key="1" type="xlong" value="5"/>
+<entry key="2" type="xlong" value="89"/>
+<entry key="3" type="xlong" value="38"/>
+<entry key="4" type="xlong" value="2606"/>
+<entry key="5" type="xlong" value="65"/>
+<entry key="6" type="xlong" value="306"/>
+<entry key="7" type="xlong" value="13"/>
+<entry key="8" type="xlong" value="50"/>
+<entry key="9" type="xlong" value="78"/>
+<entry key="10" type="xlong" value="56"/>
+<entry key="11" type="xlong" value="52"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="parastatal"/>
+<entry key="1" type="xstring" value="trust"/>
+<entry key="2" type="xstring" value="wua"/>
+<entry key="3" type="xstring" value="other"/>
+<entry key="4" type="xstring" value="vwc"/>
+<entry key="5" type="xstring" value="private operator"/>
+<entry key="6" type="xstring" value="wug"/>
+<entry key="7" type="xstring" value="other - school"/>
+<entry key="8" type="xstring" value="company"/>
+<entry key="9" type="xstring" value="water board"/>
+<entry key="10" type="xstring" value="water authority"/>
+<entry key="11" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xlong" value="168"/>
+<entry key="1" type="xlong" value="5"/>
+<entry key="2" type="xlong" value="170"/>
+<entry key="3" type="xlong" value="49"/>
+<entry key="4" type="xlong" value="2224"/>
+<entry key="5" type="xlong" value="36"/>
+<entry key="6" type="xlong" value="507"/>
+<entry key="7" type="xlong" value="1"/>
+<entry key="8" type="xlong" value="10"/>
+<entry key="9" type="xlong" value="218"/>
+<entry key="10" type="xlong" value="44"/>
+<entry key="11" type="xlong" value="21"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_14">
+<entry key="attributeName" type="xstring" value="payment"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="never pay"/>
+<entry key="1" type="xstring" value="pay when scheme fails"/>
+<entry key="2" type="xstring" value="unknown"/>
+<entry key="3" type="xstring" value="pay per bucket"/>
+<entry key="4" type="xstring" value="pay monthly"/>
+<entry key="5" type="xstring" value="other"/>
+<entry key="6" type="xstring" value="pay annually"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="pay when scheme fails"/>
+<entry key="1" type="xstring" value="pay monthly"/>
+<entry key="2" type="xstring" value="pay per bucket"/>
+<entry key="3" type="xstring" value="other"/>
+<entry key="4" type="xstring" value="pay annually"/>
+<entry key="5" type="xstring" value="never pay"/>
+<entry key="6" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="254"/>
+<entry key="1" type="xlong" value="574"/>
+<entry key="2" type="xlong" value="677"/>
+<entry key="3" type="xlong" value="73"/>
+<entry key="4" type="xlong" value="295"/>
+<entry key="5" type="xlong" value="1213"/>
+<entry key="6" type="xlong" value="368"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="pay when scheme fails"/>
+<entry key="1" type="xstring" value="pay monthly"/>
+<entry key="2" type="xstring" value="pay per bucket"/>
+<entry key="3" type="xstring" value="other"/>
+<entry key="4" type="xstring" value="pay annually"/>
+<entry key="5" type="xstring" value="never pay"/>
+<entry key="6" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="188"/>
+<entry key="1" type="xlong" value="250"/>
+<entry key="2" type="xlong" value="375"/>
+<entry key="3" type="xlong" value="44"/>
+<entry key="4" type="xlong" value="87"/>
+<entry key="5" type="xlong" value="1874"/>
+<entry key="6" type="xlong" value="636"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="pay monthly"/>
+<entry key="1" type="xstring" value="pay when scheme fails"/>
+<entry key="2" type="xstring" value="pay per bucket"/>
+<entry key="3" type="xstring" value="other"/>
+<entry key="4" type="xstring" value="pay annually"/>
+<entry key="5" type="xstring" value="never pay"/>
+<entry key="6" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="731"/>
+<entry key="1" type="xlong" value="216"/>
+<entry key="2" type="xlong" value="343"/>
+<entry key="3" type="xlong" value="96"/>
+<entry key="4" type="xlong" value="197"/>
+<entry key="5" type="xlong" value="1522"/>
+<entry key="6" type="xlong" value="348"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_15">
+<entry key="attributeName" type="xstring" value="water_quality"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="soft"/>
+<entry key="1" type="xstring" value="milky"/>
+<entry key="2" type="xstring" value="salty"/>
+<entry key="3" type="xstring" value="fluoride"/>
+<entry key="4" type="xstring" value="coloured"/>
+<entry key="5" type="xstring" value="unknown"/>
+<entry key="6" type="xstring" value="salty abandoned"/>
+<entry key="7" type="xstring" value="fluoride abandoned"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="salty"/>
+<entry key="1" type="xstring" value="fluoride"/>
+<entry key="2" type="xstring" value="salty abandoned"/>
+<entry key="3" type="xstring" value="coloured"/>
+<entry key="4" type="xstring" value="soft"/>
+<entry key="5" type="xstring" value="unknown"/>
+<entry key="6" type="xstring" value="milky"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="261"/>
+<entry key="1" type="xlong" value="15"/>
+<entry key="2" type="xlong" value="28"/>
+<entry key="3" type="xlong" value="26"/>
+<entry key="4" type="xlong" value="3048"/>
+<entry key="5" type="xlong" value="29"/>
+<entry key="6" type="xlong" value="47"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="salty"/>
+<entry key="1" type="xstring" value="fluoride abandoned"/>
+<entry key="2" type="xstring" value="salty abandoned"/>
+<entry key="3" type="xstring" value="fluoride"/>
+<entry key="4" type="xstring" value="coloured"/>
+<entry key="5" type="xstring" value="soft"/>
+<entry key="6" type="xstring" value="unknown"/>
+<entry key="7" type="xstring" value="milky"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xlong" value="369"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="14"/>
+<entry key="3" type="xlong" value="3"/>
+<entry key="4" type="xlong" value="30"/>
+<entry key="5" type="xlong" value="2735"/>
+<entry key="6" type="xlong" value="242"/>
+<entry key="7" type="xlong" value="60"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="salty"/>
+<entry key="1" type="xstring" value="salty abandoned"/>
+<entry key="2" type="xstring" value="fluoride"/>
+<entry key="3" type="xstring" value="coloured"/>
+<entry key="4" type="xstring" value="milky"/>
+<entry key="5" type="xstring" value="soft"/>
+<entry key="6" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="183"/>
+<entry key="1" type="xlong" value="59"/>
+<entry key="2" type="xlong" value="10"/>
+<entry key="3" type="xlong" value="45"/>
+<entry key="4" type="xlong" value="10"/>
+<entry key="5" type="xlong" value="3115"/>
+<entry key="6" type="xlong" value="31"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_16">
+<entry key="attributeName" type="xstring" value="quantity"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="seasonal"/>
+<entry key="1" type="xstring" value="enough"/>
+<entry key="2" type="xstring" value="dry"/>
+<entry key="3" type="xstring" value="insufficient"/>
+<entry key="4" type="xstring" value="unknown"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="seasonal"/>
+<entry key="1" type="xstring" value="insufficient"/>
+<entry key="2" type="xstring" value="dry"/>
+<entry key="3" type="xstring" value="enough"/>
+<entry key="4" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="220"/>
+<entry key="1" type="xlong" value="852"/>
+<entry key="2" type="xlong" value="14"/>
+<entry key="3" type="xlong" value="2348"/>
+<entry key="4" type="xlong" value="20"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="seasonal"/>
+<entry key="1" type="xstring" value="insufficient"/>
+<entry key="2" type="xstring" value="dry"/>
+<entry key="3" type="xstring" value="enough"/>
+<entry key="4" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="210"/>
+<entry key="1" type="xlong" value="871"/>
+<entry key="2" type="xlong" value="902"/>
+<entry key="3" type="xlong" value="1379"/>
+<entry key="4" type="xlong" value="92"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="seasonal"/>
+<entry key="1" type="xstring" value="insufficient"/>
+<entry key="2" type="xstring" value="dry"/>
+<entry key="3" type="xstring" value="enough"/>
+<entry key="4" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="336"/>
+<entry key="1" type="xlong" value="1169"/>
+<entry key="2" type="xlong" value="31"/>
+<entry key="3" type="xlong" value="1905"/>
+<entry key="4" type="xlong" value="12"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_17">
+<entry key="attributeName" type="xstring" value="source"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="rainwater harvesting"/>
+<entry key="1" type="xstring" value="machine dbh"/>
+<entry key="2" type="xstring" value="river"/>
+<entry key="3" type="xstring" value="spring"/>
+<entry key="4" type="xstring" value="shallow well"/>
+<entry key="5" type="xstring" value="hand dtw"/>
+<entry key="6" type="xstring" value="lake"/>
+<entry key="7" type="xstring" value="dam"/>
+<entry key="8" type="xstring" value="other"/>
+<entry key="9" type="xstring" value="unknown"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="spring"/>
+<entry key="1" type="xstring" value="dam"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="rainwater harvesting"/>
+<entry key="4" type="xstring" value="machine dbh"/>
+<entry key="5" type="xstring" value="river"/>
+<entry key="6" type="xstring" value="hand dtw"/>
+<entry key="7" type="xstring" value="shallow well"/>
+<entry key="8" type="xstring" value="lake"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xlong" value="1151"/>
+<entry key="1" type="xlong" value="37"/>
+<entry key="2" type="xlong" value="22"/>
+<entry key="3" type="xlong" value="143"/>
+<entry key="4" type="xlong" value="597"/>
+<entry key="5" type="xlong" value="577"/>
+<entry key="6" type="xlong" value="59"/>
+<entry key="7" type="xlong" value="852"/>
+<entry key="8" type="xlong" value="16"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="spring"/>
+<entry key="1" type="xstring" value="dam"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="rainwater harvesting"/>
+<entry key="4" type="xstring" value="machine dbh"/>
+<entry key="5" type="xstring" value="river"/>
+<entry key="6" type="xstring" value="hand dtw"/>
+<entry key="7" type="xstring" value="shallow well"/>
+<entry key="8" type="xstring" value="lake"/>
+<entry key="9" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xlong" value="772"/>
+<entry key="1" type="xlong" value="51"/>
+<entry key="2" type="xlong" value="9"/>
+<entry key="3" type="xlong" value="108"/>
+<entry key="4" type="xlong" value="750"/>
+<entry key="5" type="xlong" value="451"/>
+<entry key="6" type="xlong" value="45"/>
+<entry key="7" type="xlong" value="1183"/>
+<entry key="8" type="xlong" value="78"/>
+<entry key="9" type="xlong" value="7"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="spring"/>
+<entry key="1" type="xstring" value="dam"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="rainwater harvesting"/>
+<entry key="4" type="xstring" value="machine dbh"/>
+<entry key="5" type="xstring" value="river"/>
+<entry key="6" type="xstring" value="hand dtw"/>
+<entry key="7" type="xstring" value="shallow well"/>
+<entry key="8" type="xstring" value="lake"/>
+<entry key="9" type="xstring" value="unknown"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xlong" value="1011"/>
+<entry key="1" type="xlong" value="22"/>
+<entry key="2" type="xlong" value="1"/>
+<entry key="3" type="xlong" value="260"/>
+<entry key="4" type="xlong" value="414"/>
+<entry key="5" type="xlong" value="971"/>
+<entry key="6" type="xlong" value="15"/>
+<entry key="7" type="xlong" value="747"/>
+<entry key="8" type="xlong" value="8"/>
+<entry key="9" type="xlong" value="4"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_18">
+<entry key="attributeName" type="xstring" value="waterpoint_type"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="communal standpipe"/>
+<entry key="1" type="xstring" value="hand pump"/>
+<entry key="2" type="xstring" value="other"/>
+<entry key="3" type="xstring" value="communal standpipe multiple"/>
+<entry key="4" type="xstring" value="improved spring"/>
+<entry key="5" type="xstring" value="cattle trough"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="hand pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="cattle trough"/>
+<entry key="3" type="xstring" value="improved spring"/>
+<entry key="4" type="xstring" value="communal standpipe multiple"/>
+<entry key="5" type="xstring" value="communal standpipe"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xlong" value="1128"/>
+<entry key="1" type="xlong" value="93"/>
+<entry key="2" type="xlong" value="7"/>
+<entry key="3" type="xlong" value="70"/>
+<entry key="4" type="xlong" value="226"/>
+<entry key="5" type="xlong" value="1930"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="non functional"/>
+<entry key="noOfRows" type="xlong" value="3454"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="hand pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="cattle trough"/>
+<entry key="3" type="xstring" value="improved spring"/>
+<entry key="4" type="xstring" value="communal standpipe multiple"/>
+<entry key="5" type="xstring" value="communal standpipe"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xlong" value="902"/>
+<entry key="1" type="xlong" value="767"/>
+<entry key="2" type="xlong" value="4"/>
+<entry key="3" type="xlong" value="14"/>
+<entry key="4" type="xlong" value="442"/>
+<entry key="5" type="xlong" value="1325"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="functional needs repair"/>
+<entry key="noOfRows" type="xlong" value="3453"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="hand pump"/>
+<entry key="1" type="xstring" value="other"/>
+<entry key="2" type="xstring" value="improved spring"/>
+<entry key="3" type="xstring" value="communal standpipe multiple"/>
+<entry key="4" type="xstring" value="communal standpipe"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xlong" value="810"/>
+<entry key="1" type="xlong" value="241"/>
+<entry key="2" type="xlong" value="65"/>
+<entry key="3" type="xlong" value="526"/>
+<entry key="4" type="xlong" value="1811"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_19">
+<entry key="attributeName" type="xstring" value="class"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xlong" value="10361"/>
+<entry key="maxNoOfClassValues" type="xlong" value="200"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="functional"/>
+<entry key="1" type="xstring" value="non functional"/>
+<entry key="2" type="xstring" value="functional needs repair"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="3454"/>
+<entry key="1" type="xlong" value="3454"/>
+<entry key="2" type="xlong" value="3453"/>
+</config>
+</config>
+</config>
+</config>
+</config>
